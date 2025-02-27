@@ -15,9 +15,11 @@ export const LoadingScreen = ({ onComplete }: LoadingScreenProps) => {
             index++;
 
             if(index > fullText.length){
+                clearInterval(interval);
+                
                 setTimeout(() => {
-                index = 0;
-                },500);
+                    onComplete();
+                }, 1000);
 
                
             }
