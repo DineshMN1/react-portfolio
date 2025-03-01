@@ -1,8 +1,9 @@
 "use client";
-import React, { useCallback, useEffect, useState, memo } from "react";
+import  { useCallback, useEffect, useState, memo } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "../lib/utils";
 import { usePerformanceMode } from "../hooks/usePerformanceMode";
+
 
 const FlipWordsComponent = ({
   words,
