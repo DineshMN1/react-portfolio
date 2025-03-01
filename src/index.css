@@ -37,3 +37,11 @@ body {
     animation: loading 0.8s ease infinite;
   }
 }
+
+
+.text-gradient {
+  background: linear-gradient(to right, #3b82f6, #4f46e5); /* Adjust colors */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* Fallback */
+}
