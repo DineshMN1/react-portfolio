@@ -25,7 +25,8 @@ const FlipWordsComponent = ({
   }, [currentWord, words]);
 
   useEffect(() => {
-    let timeoutId: NodeJS.Timeout;
+    let timeoutId: ReturnType<typeof setTimeout>;
+
     if (!isAnimating) {
       timeoutId = setTimeout(startAnimation, duration);
     }
