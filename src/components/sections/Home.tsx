@@ -8,7 +8,7 @@ export default function Home() {
     <section id="home" className="min-h-screen flex items-center justify-center">
       <div className="text-center z-10 px-4">
         {/* FlipWords Animation */}
-        <h1 className="text-5xl md:text-5xl font-bold  bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
+        <h1 className="text-5xl md:text-5xl font-bold  bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
           Hi! I'm Dinesh 
         </h1>
         <div className="text-4xl font-bold mt-3 mb-3 text-gray-100">
