@@ -55,12 +55,12 @@ export const About = () => {
                 </div>
                 
                 
-                <div className="grid grid-cols-1 md:grid-cols-2 mt-8">
+                <div className="grid grid-cols-1 gap-2 md:grid-cols-2 mt-8">
                     <div className="p-6 rounded-xl border-white/10 border hover:-translate-1 transition-all">
                         <h3 className=" text-xl font-bold mb-4"> Education</h3>
                         <ul className="list-disc list-inside text-gray-300 space-y-2"> 
                             <li>
-                                <strong>B.E in Compputer Science</strong> - ANNA University (2022-2026)
+                                <strong>B.E in Computer Science</strong> - ANNA University (2022-2026)
                             </li>
                             <li>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
