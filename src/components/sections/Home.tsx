@@ -1,4 +1,4 @@
-"use client";
+import { RevealOnScroll } from "../RevealOnScroll";
 import { FlipWords } from "../FlipWords";
 
 export default function Home() {
@@ -6,6 +6,7 @@ export default function Home() {
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center">
+      <RevealOnScroll>
       <div className="text-center z-10 px-4">
         {/* FlipWords Animation */}
         <h1 className="text-5xl md:text-5xl font-bold  bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
@@ -36,7 +37,7 @@ export default function Home() {
             Contact Me
           </a>
         </div>
-      </div>
+      </div></RevealOnScroll>
     </section>
   );
 }

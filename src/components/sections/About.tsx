@@ -1,3 +1,4 @@
+import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
     const frontendSkills = [
         "React",
@@ -19,6 +20,7 @@ export const About = () => {
             id="about"
             className="min-h-screen flex item-center justify-center py-20"
         >
+            <RevealOnScroll>
             <div className="max-w-3xl mx-auto">
                 <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">About Me</h2>
                 <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
@@ -46,7 +48,7 @@ export const About = () => {
                                 {backendSkills.map((tech)=> {
                                     return (
                                         <span className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
-                                        hover:shadow-[0_2px_8px_rgba(59,130,2246,0,2)] transistion ">{tech}</span>
+                                        hover:shadow-[0_2px_8px_rgba(59,130,2246,0,2)] transistion-all">{tech}</span>
                                     )
                                 })}
                             </div>
@@ -87,6 +89,7 @@ export const About = () => {
                     </div>
                 </div>
             </div>
+            </RevealOnScroll>
         </section>
     )
 } 

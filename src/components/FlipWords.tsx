@@ -7,7 +7,7 @@ import { usePerformanceMode } from "../hooks/usePerformanceMode";
 
 const FlipWordsComponent = ({
   words,
-  duration = 500,
+  duration = 600,
   className,
 }: {
   words: string[];
