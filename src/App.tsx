@@ -6,6 +6,9 @@ import { Mobileview } from './components/Mobilemenu';
 import Home from './components/sections/Home';
 import { About } from './components/sections/About';
 import { Project } from './components/sections/Projects';
+import { Contact } from './components/sections/Contact';
+
+
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -18,6 +21,7 @@ function App() {
     <Home/>
     <About/>
     <Project/>
+    <Contact/>
     </div>
     
     </>
