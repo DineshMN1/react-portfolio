@@ -2,7 +2,7 @@ import { RevealOnScroll } from "../RevealOnScroll";
 import { FlipWords } from "../FlipWords";
 
 export default function Home() {
-  const words = ["Student", "Developer", "Tech Enthusiast"];
+  const words = ["Student", "Self taught dev", "Blockchain dev", "Tech Enthusiast"];
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center">
@@ -18,7 +18,7 @@ export default function Home() {
 
         {/* Description */}
         <p className="text-gray-400 text-lg mb-8 max-w-lg max-auto">
-          20-year-old student and self-taught programmer, learning JavaScript and Python to build impactful solutions. 
+          20-year-old student and self-taught programmer, learning Python , JavaScript and Rust to build impactful solutions. 
           Optimist and tech enthusiast.
         </p>
 
